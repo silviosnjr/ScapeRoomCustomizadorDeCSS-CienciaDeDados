@@ -158,7 +158,7 @@ const perguntas = [
         textoErrado: ""
     },
     {
-        enunciado: "Sua página precisa de cores que combinem em harmonia. Eu selecionei algumas paletas de cores no site <a href='https://colorhunt.co/'>Color Hunt</a><br> para você escolher. Confira abaixo como elas são aplicadas à estrutura de layout do nosso site. <span class='destaque'>Clique na combinação de cores que mais gostar!</span>",
+        enunciado: "Sua página precisa de cores que combinem em harmonia.<br/> Eu selecionei algumas paletas de cores no site <a href='https://colorhunt.co/'>Color Hunt</a> para você escolher. Confira abaixo como elas são aplicadas à estrutura de layout do nosso site. <span class='destaque'>Clique na combinação de cores que mais gostar!</span>",
         imagem: "",
         posicaoImg: "", 
         alternativas: [
@@ -172,7 +172,7 @@ const perguntas = [
                 },
                 texto: "<span>Urban Sunset</span>",
                 afirmacao: `
-                Boa escolha! Sua página web ficará parecido com este layout.<br /> 
+                Ótimo! Importamos a fonte e criamos variáveis CSS com base na sua escolha. Sua página web ficará parecido com o layout abaixo.<br /> 
                 <img src='assets/img/cores1.png'>`,
                 correta: true,
                 img: "assets/img/cores1.png",
@@ -191,7 +191,7 @@ const perguntas = [
                 },
                 texto: "<span>Natural Breeze</span>",
                 afirmacao: `
-                Boa escolha! Sua página web ficará parecido com este layout.<br /> 
+                Ótimo! Importamos a fonte e criamos variáveis CSS com base na sua escolha. Sua página web ficará parecido com o layout abaixo.<br /> 
                 <img src='assets/img/cores2.png'>`,
                 correta: true,
                 img: "assets/img/cores2.png",
@@ -210,7 +210,7 @@ const perguntas = [
                 },
                 texto: "<span>Electric Sunrise</span>",
                 afirmacao: `
-                Boa escolha! Sua página web ficará parecido com este layout.<br /> 
+                Ótimo! Importamos a fonte e criamos variáveis CSS com base na sua escolha. Sua página web ficará parecido com o layout abaixo.<br />  
                 <img src='assets/img/cores3.png'>`,
                 correta: true,
                 img: "assets/img/cores3.png",
@@ -229,7 +229,7 @@ const perguntas = [
                 },
                 texto: "<span>Pastel Garden</span>",
                 afirmacao: `
-                Boa escolha! Sua página web ficará parecido com este layout.<br /> 
+                Ótimo! Importamos a fonte e criamos variáveis CSS com base na sua escolha. Sua página web ficará parecido com o layout abaixo.<br /> 
                 <img src='assets/img/cores4.png'>`,
                 correta: true,
                 img: "assets/img/cores4.png",
@@ -248,7 +248,7 @@ const perguntas = [
                 },
                 texto: "<span>Sunny Fields</span>",
                 afirmacao: `
-                Boa escolha! Sua página web ficará parecido com este layout.<br /> 
+                Ótimo! Importamos a fonte e criamos variáveis CSS com base na sua escolha. Sua página web ficará parecido com o layout abaixo.<br /> 
                 <img src='assets/img/cores5.png'>`,
                 correta: true,
                 img: "assets/img/cores5.png",
@@ -267,7 +267,7 @@ const perguntas = [
                 },
                 texto: "<span>Café</span>",
                 afirmacao: `
-                Boa escolha! Sua página web ficará parecido com este layout.<br /> 
+                Ótimo! Importamos a fonte e criamos variáveis CSS com base na sua escolha. Sua página web ficará parecido com o layout abaixo.<br /> 
                 <img src='assets/img/cores6.png'>`,
                 correta: true,
                 img: "assets/img/cores6.png",
@@ -286,7 +286,7 @@ const perguntas = [
                 },
                 texto: "<span>Natureza</span>",
                 afirmacao: `
-                Boa escolha! Sua página web ficará parecido com este layout.<br /> 
+                Ótimo! Importamos a fonte e criamos variáveis CSS com base na sua escolha. Sua página web ficará parecido com o layout abaixo.<br /> 
                 <img src='assets/img/cores7.png'>`,
                 correta: true,
                 img: "assets/img/cores7.png",
@@ -303,7 +303,8 @@ const perguntas = [
     {
         enunciado: `
         Você já observou a sua recompensa?<br />
-        São variáveis criadas na raiz (root) do CSS, prontas para serem utilizadas nos valores das propriedades. Por exemplo, para colocar a variável <span class='code'>--bg-color</span> na propriedade <span class='code'>background-color</span> fazemos o seguinte:<br />
+        São variáveis criadas na raiz (root) do CSS, prontas para serem utilizadas nos valores das propriedades.
+        <br/>Por exemplo, para colocar a variável <span class='code'>--bg-color</span> na propriedade <span class='code'>background-color</span> fazemos o seguinte:<br />
         <span class='code'>background-color: var(--bg-color);</span><br />
         <span class='destaque'>Agora como você faria para inserir a variável --primary-color no COR do texto de sua página web ?</span>
         `,
