@@ -3,7 +3,7 @@ const textoErro = "<img src='assets/img/browser_sad.png' style='width:200px; mar
 const perguntas = [
     {
         enunciado: `
-        Neste Escape Room vamos dar vida a página web abaixo da unidade de ciência de dados, criando o <span class='destaque'>estilo CSS</span> e customizando nosso projeto.<br/><br/>
+        Neste Escape Room vamos dar vida a página web abaixo da unidade de Ciência de Dados, criando o <span class='destaque'>estilo CSS</span> e customizando nosso projeto.<br/><br/>
         `,
         imagem: "assets/img/pagina_HTML.png",
         posicaoImg: "", 
@@ -303,10 +303,9 @@ const perguntas = [
     {
         enunciado: `
         Você já observou a sua recompensa?<br />
-        São variáveis criadas na raiz (root) do CSS, prontas para serem utilizadas nos valores das propriedades.
-        <br/>Por exemplo, para colocar a variável <span class='code'>--bg-color</span> na propriedade <span class='code'>background-color</span> fazemos o seguinte:<br />
+        São variáveis criadas na raiz (root) do CSS, prontas para serem utilizadas nos valores das propriedades.Por exemplo, para colocar a variável <span class='code'>--bg-color</span> na propriedade <span class='code'>background-color</span> fazemos o seguinte:<br />
         <span class='code'>background-color: var(--bg-color);</span><br />
-        <span class='destaque'>Agora como você faria para inserir a variável --primary-color no COR do texto de sua página web ?</span>
+        <span class='destaque'>Agora como você faria para inserir a variável --primary-color como sendo a cor do texto de sua página web ?</span>
         `,
         imagem: "",
         posicaoImg: "", 
@@ -341,7 +340,7 @@ const perguntas = [
                 blocoCSS: "body",
                 propriedadeCSS : "",
                 valorPropriedadeCSS: "color",
-                texto: "color: var(primary-color);",
+                texto: "color: primary-color;",
                 afirmacao: ``,
                 correta: false,
                 img: "",
@@ -370,24 +369,11 @@ const perguntas = [
     },
     {
         enunciado: `
-        Por que é importante definir a propriedade <span class='code'>CSS margin: 0;</span> no body ao estilizar uma página web?
+        Por que é importante definir a propriedade CSS <span class='code'>margin: 0;</span> no body ao estilizar uma página web?
         `,
         imagem: "",
         posicaoImg: "", 
         alternativas: [
-            {
-                blocoCSS: "body",
-                propriedadeCSS : "margin",
-                valorPropriedadeCSS: "0",
-                texto: "Para remover as margens padrão dos navegadores, garantindo controle total sobre o layout da página.",
-                afirmacao: ``,
-                correta: true,
-                img: "",
-                imgThumb: "",
-                recompensa: false,
-                linguagem: "",
-                textoRecompensa: ``
-            },
             {
                 blocoCSS: "body",
                 propriedadeCSS : "margin",
@@ -421,6 +407,19 @@ const perguntas = [
                 texto: "Para centralizar todo o conteúdo da página dentro do body.",
                 afirmacao: ``,
                 correta: false,
+                img: "",
+                imgThumb: "",
+                recompensa: false,
+                linguagem: "",
+                textoRecompensa: ``
+            },
+            {
+                blocoCSS: "body",
+                propriedadeCSS : "margin",
+                valorPropriedadeCSS: "0",
+                texto: "Para remover as margens padrão dos navegadores, garantindo controle total sobre o layout da página.",
+                afirmacao: ``,
+                correta: true,
                 img: "",
                 imgThumb: "",
                 recompensa: false,
@@ -750,7 +749,7 @@ const perguntas = [
     }, 
     {
         enunciado: `
-        O texto do nosso <i>Storytelling</i> deve conter um espaçamento interno, para que o paragrafo fique afastado das bordas, deixando o texto mais apresentável.<span class='destaque'>Qual propriedade utilizamos para aplicar esse espaçamento interno?</span>
+        O texto do nosso <i>Storytelling</i> deve conter um espaçamento interno, para que o paragrafo fique afastado das bordas, deixando o texto mais apresentável.<span class='destaque'> Qual propriedade utilizamos para aplicar esse espaçamento interno?</span>
         `
         ,
         imagem: "assets/img/espacamento_interno.png",
@@ -802,7 +801,7 @@ const perguntas = [
     }, 
     {
         enunciado: `
-        Agora, precisamos de um espaçamento externo, pois o texto está muito colado com a borda da página. <span class='destaque'>Qual propriedade utilizamos para aplicar esse espaçamento externo?</span>
+        Agora, precisamos de um espaçamento externo, pois o container está muito colado com a borda da página. <span class='destaque'>Qual propriedade utilizamos para aplicar esse espaçamento externo?</span>
         `
         ,
         imagem: "assets/img/espacamento_externo.png",
