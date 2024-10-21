@@ -3,7 +3,7 @@ const textoErro = "<img src='assets/img/browser_sad.png' style='width:200px; mar
 const perguntas = [
     {
         enunciado: `
-        Neste Escape Room, vamos criar o <span class='destaque'>estilo CSS</span> da nossa página de Ciência de Dados e customizar a página web que deve estar semelhante ao ilustrado abaixo.<br/><br/>
+        Neste Escape Room vamos dar vida a página web abaixo da unidade de ciência de dados, criando o <span class='destaque'>estilo CSS</span> e customizando nosso projeto.<br/><br/>
         `,
         imagem: "assets/img/pagina_HTML.png",
         posicaoImg: "", 
