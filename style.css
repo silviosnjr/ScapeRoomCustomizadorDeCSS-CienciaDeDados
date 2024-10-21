@@ -109,17 +109,17 @@
 }
 
 .code{
-    background-color: lightgray;
-    color: black;
+    background-color: rgb(231 231 231 / 30%);
+    color: white;
     font-family: 'Courier New', Courier, monospace;
-    padding-bottom: 1px;
+    padding: 1px;
     font-weight: bold;
 }
 
 :root{
     --cor-fundo: #01080E;
     --cor-principal: #0b2017 ; /*#0b2017*/
-    --cor-secundaria: #212333;
+    --cor-secundaria: #293321;
     --cor-destaque: #ffff00; /*#2BDEFD*/
     --cor-texto: #D7F9FF;
 }

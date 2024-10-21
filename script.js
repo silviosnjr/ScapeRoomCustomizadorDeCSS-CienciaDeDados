@@ -167,7 +167,7 @@ function mostraResultado(){
 
     const texto = document.createElement("div");
     texto.classList.add("titulo");
-    texto.innerHTML = `<img src='assets/img/pagina_final.gif' style='width:450px'><br />Se você coletou todas as suas recompensas e as inseriu em seu arquivo <span class='code'>style.css</span>, você agora escapou desta página com uma parte do código de estilo CSS para construir seu projeto de FlashCards.
+    texto.innerHTML = `<img src='assets/img/pagina_final.gif' style='width:450px'><br />Se você coletou todas as suas recompensas e as inseriu em seu arquivo <span class='code'>style.css</span>, você agora escapou desta página com uma parte do código de estilo CSS para construir seu projeto da unidade de Ciência de dados.
     <br /> <br /> Agora, abra seu <span class='code'>index.html</span> no navegador para visualizar a interpretação do seu trabalho e compartilhe essa experiência com seus colegas de turma! `
     caixaPerguntas.appendChild(texto);
 }
