@@ -244,7 +244,7 @@ const perguntas = [
                 valorPropriedadeCSS: {
                     "--bg-color" : "#FFA62F",
                     "--primary-color" : "#FFE8C8",
-                    "--secundary-color" : "#ACD793"
+                    "--secundary-color" : "#42af02"
                 },
                 texto: "<span>Sunny Fields</span>",
                 afirmacao: `
